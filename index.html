@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bright Future Academy</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+        }
+
+        header{
+            background:#0077cc;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+
+        nav{
+            background:#005fa3;
+            padding:10px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-weight:bold;
+        }
+
+        .hero{
+            text-align:center;
+            padding:60px 20px;
+            background:white;
+        }
+
+        .hero h2{
+            color:#0077cc;
+            margin-bottom:15px;
+        }
+
+        .btn{
+            display:inline-block;
+            background:#0077cc;
+            color:white;
+            padding:10px 20px;
+            text-decoration:none;
+            border-radius:5px;
+            margin-top:15px;
+        }
+
+        section{
+            padding:40px 20px;
+            max-width:1000px;
+            margin:auto;
+        }
+
+        .card-container{
+            display:flex;
+            flex-wrap:wrap;
+            gap:20px;
+            justify-content:center;
+        }
+
+        .card{
+            background:white;
+            padding:20px;
+            width:280px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .card h3{
+            color:#0077cc;
+            margin-bottom:10px;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            background:white;
+        }
+
+        table, th, td{
+            border:1px solid #ddd;
+        }
+
+        th, td{
+            padding:12px;
+            text-align:center;
+        }
+
+        th{
+            background:#0077cc;
+            color:white;
+        }
+
+        footer{
+            background:#222;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+
+        @media(max-width:768px){
+            .card-container{
+                flex-direction:column;
+                align-items:center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bright Future Academy</h1>
+    <p>Online Coaching Classes for Students (Class 1–5)</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#fees">Fees</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+    <h2>Learning Made Easy for Kids</h2>
+    <p>Interactive Online Classes | Expert Teachers | Affordable Fees</p>
+    <a href="#contact" class="btn">Book Free Demo Class</a>
+</div>
+
+<section id="about">
+    <h2>About Us</h2>
+    <br>
+    <p>
+        Bright Future Academy provides quality online education for students
+        from Class 1 to 5. We focus on strong fundamentals, interactive
+        learning, regular assessments, and personalized attention.
+    </p>
+</section>
+
+<section id="courses">
+    <h2>Our Courses</h2>
+    <br>
+
+    <div class="card-container">
+        <div class="card">
+            <h3>Class 1–2</h3>
+            <p>English, Mathematics, EVS, Hindi</p>
+        </div>
+
+        <div class="card">
+            <h3>Class 3–4</h3>
+            <p>English, Maths, Science, Social Studies</p>
+        </div>
+
+        <div class="card">
+            <h3>Class 5</h3>
+            <p>Advanced Concepts, Olympiad Preparation, Spoken English</p>
+        </div>
+    </div>
+</section>
+
+<section id="fees">
+    <h2>Fee Structure</h2>
+    <br>
+
+    <table>
+        <tr>
+            <th>Class</th>
+            <th>Monthly Fee</th>
+        </tr>
+        <tr>
+            <td>Class 1–2</td>
+            <td>₹1000</td>
+        </tr>
+        <tr>
+            <td>Class 3–5</td>
+            <td>₹1500</td>
+        </tr>
+        <tr>
+            <td>Premium Batch</td>
+            <td>₹2500</td>
+        </tr>
+    </table>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <br>
+
+    <p><strong>Phone:</strong> +91 9651344775</p>
+    <p><strong>Email:</strong> info@brightfutureacademy.com/<br>sanjaysydv@gmail.com</p>
+    <p><strong>Location:</strong> Kanpur, Uttar Pradesh</p>
+
+    <br>
+
+    <a href="https://wa.me/919651344775" class="btn">
+        Join on WhatsApp
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 Bright Future Academy. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
